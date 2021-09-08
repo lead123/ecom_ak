@@ -88,7 +88,7 @@ const Products = ({product, onAddToCart }) => {
           // <h2>{value.id}</h2>
           // <h1>{value.name}</h1>
           // </div>
-          <Grid item key={value.id} item xs={12} sm={6} md={4} lg={3}>
+          <Grid item key={value.id} xs={12} sm={6} md={4} lg={3}>
             <Product product={value} onAddToCart2={onAddToCart} />
           </Grid>
         ))}
